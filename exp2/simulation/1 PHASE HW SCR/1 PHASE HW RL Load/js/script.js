@@ -997,7 +997,7 @@ function showreadings() {
       values["I1"]["value"] != 0
     ) {
       if (new_reading) {
-        if (count < 9) {
+        if (count < 11) {
           document.getElementById("Taken_reading").style.display = "block";
           var a = document.getElementById("tab");
           var b = a.innerHTML;
@@ -1009,7 +1009,7 @@ function showreadings() {
         } else {
           openPopup(
             "new-img/404-error.png",
-            "You can only add 8 readings to the table",
+            "You can only add 10 readings in the table",
             "23px"
           );
         }
