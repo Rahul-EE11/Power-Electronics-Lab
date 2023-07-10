@@ -119,6 +119,7 @@ var values = {
   vavg: 0,
   iavg: 0,
   vrms: 0,
+  irms: 0
 };
 var endpoints = {};
 var user_connection = [];
@@ -914,16 +915,7 @@ function showreadings() {
           document.getElementById("Taken_reading").style.display = "block";
           var a = document.getElementById("tab");
           var b = a.innerHTML;
-          var str =
-            "<tr><td>" +
-            count +
-            "</td><td>" +
-            values["vrms"] +
-            "</td><td>" +
-            values["vavg"] +
-            "</td><td>" +
-            values["iavg"] +
-            "</td></tr>";
+          var str = `<tr><td>${count}</td><td>${values["vrms"]}</td><td>${values["irms"]}</td><td>${values["vavg"]}</td><td>${values["iavg"]}</td></tr>`;
           a.innerHTML = b + str;
           count = count + 1;
           new_reading = false;

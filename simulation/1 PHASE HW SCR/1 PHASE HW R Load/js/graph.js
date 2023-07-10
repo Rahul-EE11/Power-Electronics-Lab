@@ -265,15 +265,19 @@ function generategraph() {
   var vavg=(sineamp/(2*Math.PI))*(1+(Math.cos(sta*(Math.PI/180))));
   var iavg=vavg/resistance;
   var vrms=(sineamp/(2*Math.sqrt(Math.PI)))*(Math.sqrt(Math.PI-(sta*(Math.PI/180))+(Math.sin(2*(sta*(Math.PI/180)))/2)));
+  var irms=vrms/resistance;
   iavg =iavg*100;
   vavg=vavg*100;
   vrms=vrms*100;
+  irms=irms*100;
   vavg=parseInt(vavg);
   iavg=parseInt(iavg);
   vrms=parseInt(vrms);
+  irms=parseInt(irms);
   values['vavg']=(vavg/100);
   values['iavg']=(iavg/100);
   values['vrms']=(vrms/100);
+  values['irms']=(irms/100);
 
   return [
     [sineamp, sineamp / resistance],

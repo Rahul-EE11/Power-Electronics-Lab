@@ -832,3 +832,9 @@ footer {
 .show_drop{
   display: block;
 }
+table,
+td,
+th {
+  border-collapse: collapse;
+  padding: 1px;
+}

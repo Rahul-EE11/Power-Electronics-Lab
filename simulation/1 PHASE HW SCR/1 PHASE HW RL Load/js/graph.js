@@ -336,15 +336,19 @@ function generategraph() {
           Math.sin(2 * (sta * (Math.PI / 180)))) /
           2
     );
+  var irms = vrms / z;
   iavg = iavg * 100;
   vavg = vavg * 100;
   vrms = vrms * 100;
+  irms = irms * 100;
   vavg = parseInt(vavg);
   iavg = parseInt(iavg);
   vrms = parseInt(vrms);
+  irms = parseInt(irms);
   values["vavg"] = vavg / 100;
   values["iavg"] = iavg / 100;
   values["vrms"] = vrms / 100;
+  values["irms"] = irms / 100;
 
   return [
     [sineamp, max_current],
