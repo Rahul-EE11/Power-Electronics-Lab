@@ -1,0 +1,58 @@
+{
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "Which of the following is control element in silicon controlled resistor (SCR)?",
+			"answers": {
+				"a": "Anode",
+				"b": "Source",
+				"c": "Gate",
+				"d": "Cathode"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "What is the average output voltage for half wave controlled rectifier for R load?",
+			"answers": {
+				"a": "Vm/π (1+cosα)",
+				"b": "3Vm/π (1+cosα)",
+				"c": "Vm/2π (1+cosα)",
+				"d": "None of the above"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A single phase half wave controlled rectifier has 400 sin 314 t as the input voltage and R as the load, for a firing angle 60° for the SCR, the average output voltage is?",
+			"answers": {
+				"a": "400/π",
+				"b": "300/π",
+				"c": "240/π",
+				"d": "110/π"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Name some of the current controlled (current driven) devices-",
+			"answers": {
+				"a": "SCR",
+				"b": "GTO",
+				"c": "BJT",
+				"d": "All of the above"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "Thyristor can change the output voltage by modifying __________?",
+			"answers": {
+				"a": "Input voltage",
+				"b": "Firing angle",
+				"c": "By changing load current",
+				"d": "None of the above"
+			},
+			"correctAnswer": "b"
+		}
+	]
+}
+
+
+

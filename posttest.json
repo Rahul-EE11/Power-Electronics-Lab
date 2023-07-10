@@ -1,0 +1,55 @@
+{
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "In a single phase half wave controlled rectifier the firing angle is 40⁰. If the load is purely resistive, find the conduction period of the SCR?",
+			"answers": {
+				"a": "90⁰",
+				"b": "110⁰",
+				"c": "180⁰",
+				"d": "140⁰"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "A single phase half wave controlled rectifier is supplied through a 230 V, 50 Hz supply. What will be the maximum output voltage possible?",
+			"answers": {
+				"a": "√2*230/π",
+				"b": "230/π",
+				"c": "√2*230/2π",
+				"d": "230/2π"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "A single-phase half wave controlled rectifier, operating at 120 V rms and 60 Hz ac supply, has a firing angle of 60 degree. The average value of its output voltage is?",
+			"answers": {
+				"a": "45√2/π V",
+				"b": "45√3/π V",
+				"c": "90√2/π V",
+				"d": "90√3/π V"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A 230V, 50 Hz one pulse SCR is triggred at a firing angle of 40⁰ and the load current extinguishes at a 210⁰. Find the circuit turn off time and average output voltage, Where R = 5Ω and L = 2mH?",
+			"answers": {
+				"a": "16.66 ms, 114.84 V",
+				"b": "4.16 ms, 42.23 V",
+				"c": "8.33 ms, 84.47 V",
+				"d": "12.72 ms, 67.49 V"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A single phase 220V, 1 KW heater is connected to half wave-controlled rectifier and is fed from a 220V, 50 Hz ac supply. When the firing angle α = 90⁰, the absorbed power by heater will be nearly?",
+			"answers": {
+				"a": "550 W",
+				"b": "250 W",
+				"c": "1000 W",
+				"d": "700 W"
+			},
+			"correctAnswer": "b"
+		}
+	]
+}
